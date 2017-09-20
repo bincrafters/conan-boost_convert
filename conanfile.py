@@ -8,17 +8,17 @@ class BoostConvertConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["convert"]
-    requires =  "Boost.Config/1.65.1@bincrafters/stable", \
-                      "Boost.Core/1.65.1@bincrafters/stable", \
-                      "Boost.Function_Types/1.65.1@bincrafters/stable", \
-                      "Boost.Lexical_Cast/1.65.1@bincrafters/stable", \
-                      "Boost.Math/1.65.1@bincrafters/stable", \
-                      "Boost.Mpl/1.65.1@bincrafters/stable", \
-                      "Boost.Optional/1.65.1@bincrafters/stable", \
-                      "Boost.Parameter/1.65.1@bincrafters/stable", \
-                      "Boost.Range/1.65.1@bincrafters/stable", \
-                      "Boost.Spirit/1.65.1@bincrafters/stable", \
-                      "Boost.Type_Traits/1.65.1@bincrafters/stable"
+    requires =  "Boost.Config/1.65.1@bincrafters/testing", \
+                      "Boost.Core/1.65.1@bincrafters/testing", \
+                      "Boost.Function_Types/1.65.1@bincrafters/testing", \
+                      "Boost.Lexical_Cast/1.65.1@bincrafters/testing", \
+                      "Boost.Math/1.65.1@bincrafters/testing", \
+                      "Boost.Mpl/1.65.1@bincrafters/testing", \
+                      "Boost.Optional/1.65.1@bincrafters/testing", \
+                      "Boost.Parameter/1.65.1@bincrafters/testing", \
+                      "Boost.Range/1.65.1@bincrafters/testing", \
+                      "Boost.Spirit/1.65.1@bincrafters/testing", \
+                      "Boost.Type_Traits/1.65.1@bincrafters/testing"
 
                       #config0 core2 function_types5 lexical_cast8 math8 mpl5 optional5 parameter10 range7 spirit11 type_traits3
                       
