@@ -3,28 +3,28 @@ from conans import ConanFile
 
 class BoostConvertConan(ConanFile):
     name = "Boost.Convert"
-    version = "1.65.1"
+    version = "1.66.0"
     requires = \
-        "Boost.Config/1.65.1@bincrafters/testing", \
-        "Boost.Core/1.65.1@bincrafters/testing", \
-        "Boost.Function_Types/1.65.1@bincrafters/testing", \
-        "Boost.Lexical_Cast/1.65.1@bincrafters/testing", \
-        "Boost.Math/1.65.1@bincrafters/testing", \
-        "Boost.Mpl/1.65.1@bincrafters/testing", \
-        "Boost.Optional/1.65.1@bincrafters/testing", \
-        "Boost.Parameter/1.65.1@bincrafters/testing", \
-        "Boost.Range/1.65.1@bincrafters/testing", \
-        "Boost.Spirit/1.65.1@bincrafters/testing", \
-        "Boost.Type_Traits/1.65.1@bincrafters/testing"
+        "Boost.Config/1.66.0@bincrafters/testing", \
+        "Boost.Core/1.66.0@bincrafters/testing", \
+        "Boost.Function_Types/1.66.0@bincrafters/testing", \
+        "Boost.Lexical_Cast/1.66.0@bincrafters/testing", \
+        "Boost.Math/1.66.0@bincrafters/testing", \
+        "Boost.Mpl/1.66.0@bincrafters/testing", \
+        "Boost.Optional/1.66.0@bincrafters/testing", \
+        "Boost.Parameter/1.66.0@bincrafters/testing", \
+        "Boost.Range/1.66.0@bincrafters/testing", \
+        "Boost.Spirit/1.66.0@bincrafters/testing", \
+        "Boost.Type_Traits/1.66.0@bincrafters/testing"
     lib_short_names = ["convert"]
     is_header_only = True
 
     # BEGIN
 
     url = "https://github.com/bincrafters/conan-boost-convert"
-    description = "Please visit http://www.boost.org/doc/libs/1_65_1"
+    description = "Please visit http://www.boost.org/doc/libs/1_66_0"
     license = "www.boost.org/users/license.html"
-    build_requires = "Boost.Generator/1.65.1@bincrafters/testing"
+    build_requires = "Boost.Generator/1.66.0@bincrafters/testing"
     short_paths = True
     exports = "boostgenerator.py"
 
