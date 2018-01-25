@@ -23,7 +23,8 @@ class BoostConvertConan(ConanFile):
         "boost_spirit/1.66.0@bincrafters/testing",
         "boost_type_traits/1.66.0@bincrafters/testing"
     )
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["convert"]
     is_header_only = True
 
