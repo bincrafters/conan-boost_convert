@@ -10,18 +10,18 @@ class BoostConvertConan(ConanFile):
     url = "https://github.com/bincrafters/conan-boost_convert"
     
     requires = (
-        "boost_package_tools/1.65.1@bincrafters/testing",
-        "boost_config/1.65.1@bincrafters/testing",
-        "boost_core/1.65.1@bincrafters/testing",
-        "boost_function_types/1.65.1@bincrafters/testing",
-        "boost_lexical_cast/1.65.1@bincrafters/testing",
-        "boost_math/1.65.1@bincrafters/testing",
-        "boost_mpl/1.65.1@bincrafters/testing",
-        "boost_optional/1.65.1@bincrafters/testing",
-        "boost_parameter/1.65.1@bincrafters/testing",
-        "boost_range/1.65.1@bincrafters/testing",
-        "boost_spirit/1.65.1@bincrafters/testing",
-        "boost_type_traits/1.65.1@bincrafters/testing"
+        "boost_package_tools/1.65.1@bincrafters/stable",
+        "boost_config/1.65.1@bincrafters/stable",
+        "boost_core/1.65.1@bincrafters/stable",
+        "boost_function_types/1.65.1@bincrafters/stable",
+        "boost_lexical_cast/1.65.1@bincrafters/stable",
+        "boost_math/1.65.1@bincrafters/stable",
+        "boost_mpl/1.65.1@bincrafters/stable",
+        "boost_optional/1.65.1@bincrafters/stable",
+        "boost_parameter/1.65.1@bincrafters/stable",
+        "boost_range/1.65.1@bincrafters/stable",
+        "boost_spirit/1.65.1@bincrafters/stable",
+        "boost_type_traits/1.65.1@bincrafters/stable"
     )
     author = "Bincrafters <bincrafters@gmail.com>"
     exports = ["LICENSE.md"]
@@ -36,7 +36,7 @@ class BoostConvertConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_65_1"
     license = "BSL-1.0"
     short_paths = True
-    build_requires = "boost_generator/1.65.1@bincrafters/testing"
+    build_requires = "boost_generator/1.65.1@bincrafters/stable"
 
     def package_id(self):
         getattr(self, "package_id_additional", lambda:None)()
